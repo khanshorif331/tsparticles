@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "errno": 224,
+    "code": "ELIFECYCLE",
+    "pkgid": "tsparticles-website@2.0.6",
+    "stage": "clear:cache",
+    "script": "npx rimraf -f ./node_modules/.cache",
+    "pkgname": "tsparticles-website",
+    "err": {
+      "name": "pnpm",
+      "message": "tsparticles-website@2.0.6 clear:cache: `npx rimraf -f ./node_modules/.cache`\nExit status 224",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: tsparticles-website@2.0.6 clear:cache: `npx rimraf -f ./node_modules/.cache`\nExit status 224\n    at EventEmitter.<anonymous> (/Users/matteo/.nvm/versions/node/v16.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:106732:20)\n    at EventEmitter.emit (node:events:520:28)\n    at ChildProcess.<anonymous> (/Users/matteo/.nvm/versions/node/v16.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:93301:18)\n    at ChildProcess.emit (node:events:520:28)\n    at maybeClose (node:internal/child_process:1092:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}

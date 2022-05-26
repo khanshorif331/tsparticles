@@ -1,0 +1,86 @@
+Invoking:  pnpm run clear:cache && pnpm run lint && pnpm run build:css && pnpm run build:js 
+
+> tsparticles-website@2.0.6 clear:cache /Users/matteo/Projects/GitHub/tsparticles/tsparticles/website
+> rimraf -f ./node_modules/.cache
+
+
+> tsparticles-website@2.0.6 lint /Users/matteo/Projects/GitHub/tsparticles/tsparticles/website
+> prettier --write ./configs && prettier --write ./css/*.scss && prettier --write ./js/404.js && prettier --write ./js/demo.js && prettier --write ./presets && prettier --write ./samples && prettier --write index.html && prettier --write privacy.html && prettier --write 404.html && prettier --write video.html
+
+configs/404.json 27ms
+configs/amongUs.json 7ms
+configs/colors.json 11ms
+configs/confetti.json 4ms
+configs/confettiExplosions.json 11ms
+configs/fireworks.json 8ms
+configs/hexagonPath.json 4ms
+configs/light.json 7ms
+configs/sideConfetti.json 18ms
+configs/starry.json 2ms
+configs/tunnel.json 2ms
+css/404.scss 43ms
+css/main.scss 14ms
+css/presets.scss 4ms
+js/404.js 27ms
+js/demo.js 145ms
+presets/absorbers.json 51ms
+presets/amongUs.json 13ms
+presets/background.json 24ms
+presets/big.json 7ms
+presets/bubble.json 7ms
+presets/chars.json 13ms
+presets/collisions.json 4ms
+presets/confetti.json 9ms
+presets/connect.json 4ms
+presets/default.json 3ms
+presets/divRepulse.json 3ms
+presets/emitterAbsorber.json 5ms
+presets/emitters.json 6ms
+presets/fontawesome.json 12ms
+presets/growing.json 3ms
+presets/hollowknight.json 3ms
+presets/images.json 26ms
+presets/multiplePolygonMasks.json 4ms
+presets/nasa.json 2ms
+presets/noconfig.json 1ms
+presets/nyancat.json 15ms
+presets/nyancat2.json 7ms
+presets/parallax.json 5ms
+presets/polygonMask.json 7ms
+presets/polygons.json 11ms
+presets/preset.json 1ms
+presets/random.json 12ms
+presets/shadow.json 5ms
+presets/slow.json 11ms
+presets/snow.json 2ms
+presets/star.json 2ms
+presets/trail.json 1ms
+presets/twinkle.json 2ms
+presets/virus.json 4ms
+presets/warp.json 2ms
+samples/index.html 228ms
+samples/presets/bigCircles.html 39ms
+samples/presets/bubbles.html 27ms
+samples/presets/confetti.html 40ms
+samples/presets/fire.html 32ms
+samples/presets/firefly.html 18ms
+samples/presets/fireworks.html 37ms
+samples/presets/fountain.html 40ms
+samples/presets/index.html 34ms
+samples/presets/links.html 34ms
+samples/presets/seaAnemone.html 43ms
+samples/presets/snow.html 12ms
+samples/presets/stars.html 10ms
+samples/presets/triangles.html 23ms
+index.html 222ms
+privacy.html 55ms
+404.html 133ms
+video.html 121ms
+
+> tsparticles-website@2.0.6 build:css /Users/matteo/Projects/GitHub/tsparticles/tsparticles/website
+> sass ./css/main.scss ./css/main.css && minify ./css/main.css > ./css/main.min.css && sass ./css/presets.scss ./css/presets.css && minify ./css/presets.css > ./css/presets.min.css && sass ./css/404.scss ./css/404.css && minify ./css/404.css > ./css/404.min.css
+
+
+> tsparticles-website@2.0.6 build:js /Users/matteo/Projects/GitHub/tsparticles/tsparticles/website
+> minify ./js/demo.js > ./js/demo.min.js && minify ./js/404.js > ./js/404.min.js
+
